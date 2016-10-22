@@ -1,0 +1,28 @@
+{
+    "name"            : "@whizark/remark-preset",
+    "version"         : "0.0.0",
+    "description"     : "remark sharable preset files",
+    "keywords"        : [
+        "remark",
+        "remark-preset",
+        "markdown"
+    ],
+    "homepage"        : "https://github.com/whizark/remark-preset",
+    "bugs"            : {
+        "url": "https://github.com/whizark/remark-preset/issues"
+    },
+    "license"         : "MIT",
+    "author"          : {
+        "name": "Whizark",
+        "url" : "http://whizark.com"
+    },
+    "files"           : [
+        "index.js",
+        "preset"
+    ],
+    "main"            : "./index.js",
+    "repository"      : {
+        "type": "git",
+        "url" : "https://github.com/whizark/remark-preset.git"
+    }
+}

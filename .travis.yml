@@ -1,0 +1,42 @@
+sudo: false
+
+language: node_js
+
+node_js:
+    - 4
+    - 5
+    - 6
+
+matrix:
+    fast_finish: true
+
+cache:
+    directories:
+        - node_modules
+
+before_install:
+    - npm config set spin false
+    - npm config set progress false
+    - npm install -g npm
+
+deploy:
+    - provider: npm
+      email: npm@whizark.com
+      api_key:
+          secure: JQO6QSRFQw9cKpfwFCdHJXTCnqk6Y3hu36M3gCmsL25mW7HnBJqxbxUx0q0LecBSQQt87bs+9/SgZ2p+/vNNiksAmgSJ4k8kNTyy2a5Irc91xOZlv+rbuMQC0MccWpEIi0x+fvlRqXyfb4ikgCdHmglXLPfdnZ8oAdaAzCw1yubeuiRWXoD/Sw44HoFkZgNd8vPHdCPSTqGZkZqBxc5R93j35nhPboZEJMEKs7NLanld3HjWv49FKV0YY108C5kh/ROSBELXYPO6I2puZUZ6qYSmuzTdg07Cz9WgeXgf9h9ZmdAzTpgupJcL7ytVxPaQQOTrttw9cx7Wruk2f3z1prJr+bH7qv8Kn5X+MnyQ1sI6iRMfRzOQyAmsHD6cDJ1HHkqD0+xrcsc+AaVQ8NhMzDxyVnAITi3mXDjwJq0C9lPJXBbA9p4Q69Zo0OKloQrZTQf47uHTgOyEJqy5LmTz6wjqcQYPd3DdTtBmao+vguD0fFeqbMAHK/cV9ALW4wSh4KtMvSBw73ce//bMtXK7EuZKkcUkPkyeLpGAkY0tCafUm5/sM7VjGYdRc+ZxSEzAhICwEt56efc3dIdPqIJFjtkjpqV/j90OA/2/eibWZb+OjVd4GtJZeauetRnG7SEgFKNbw1v8pBTFJZn6D743p4N9R7Mrmc6QtdvDRGMU2PU=
+      on:
+          node: 6
+          repo: whizark/remark-preset
+          branch: master
+          tags: true
+
+notifications:
+    email: false
+
+    slack:
+        rooms:
+            - secure: o/xp/8ozhSZL/vNzTm0JIQTbcknu6b59BkHEjmbBKE54NFObkSrrtPxbHL2Jlf6A/ebbG3bEz7PlB2Q3dMQ1LN2r6k7KG+5d8+UB23uO2ae5VbRxckvM4Lcs3Qi9DDBiuCs0lM2Gh/Uvp+Skf7ToabxtIsNFIYYGzoK9Rznbj1u3TSQ4NzPq+EMVjcsP0BrGZcjAgJCCvyZwreBhwIHN6qcuczx7G1dwJP6U+7fxknyOflhA+xoqTxerqp8iaeH2fltzC0mArL0oaRj1r2kDzM+am3gxsYbRJTlDcfxzzEN/Y1qcLVHz5sSGY8Hw3pRhrKW5aFLqN54OGBpLTmMBJ7Zps3yIhQcbc4fWESrXqVECZXraSIEYZnVN2wyP6ZoTBWhazALl/kRx8YzkJfrKy1qmwOYt5d/63M0IvMHZFc8/tB+eHDQjzrGOOdz2pW61XzMJOIQpe8ey/p693F59mW2ubqUpd1k5rgDrayODnhpxmo6gly2ZNQG4PpdI29nBk75weZMNsZQqos7RhL6qZi8zKOL5RTrxMZKs9IGIzkeHwoeWvmmaWYmeuk3T+/eDqDZUSNwLYFybPwshysO3gCiE3wiZqVmpLx2p5LGltokKfFC5Gu1dTdSrU/pxr1J85Y0+17YRmmb5pNTlhG7zM8wnLrVa2f8CvNBZxtDK6yE=
+        on_pull_requests: false
+        on_start: never
+        on_success: never
+        on_failure: change

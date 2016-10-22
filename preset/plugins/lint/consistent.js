@@ -1,6 +1,6 @@
 module.exports = {
     "plugins": {
-        "remark-lint": {
+        "lint": {
             "externals"                        : [],
             "blockquote-indentation"           : "consistent",
             "checkbox-character-style"         : "consistent",

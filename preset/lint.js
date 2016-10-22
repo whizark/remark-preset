@@ -1,7 +1,3 @@
 'use strict';
 
-module.exports = {
-    "presets": [
-        "./lint-consistent.js",
-    ].map(require.resolve),
-};
+module.exports = require('./lint-consistent.js');

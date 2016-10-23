@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+    "output" : false,
     "presets": [
         "./settings/common.js",
         "./settings/parse.js",

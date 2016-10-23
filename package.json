@@ -1,6 +1,6 @@
 {
     "name"            : "@whizark/remark-preset",
-    "version"         : "0.1.0",
+    "version"         : "0.2.0",
     "description"     : "remark sharable preset files",
     "keywords"        : [
         "remark",

@@ -72,6 +72,7 @@ module.exports = {
             "no-blockquote-without-caret"      : ["error"],
             "no-consecutive-blank-lines"       : ["error"],
             "no-duplicate-definitions"         : ["error"],
+            "no-duplicate-headings-in-section" : ["error"],
             "no-duplicate-headings"            : ["error"],
             "no-emphasis-as-heading"           : ["error"],
             "no-file-name-articles"            : ["error"],

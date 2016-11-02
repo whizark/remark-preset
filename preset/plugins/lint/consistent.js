@@ -96,6 +96,7 @@ module.exports = {
                 "error",
                 1,
             ],
+            "no-reference-like-url"            : ["error"],
             "no-shell-dollars"                 : ["error"],
             "no-shortcut-reference-link"       : ["error"],
             "no-table-indentation"             : ["error"],

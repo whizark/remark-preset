@@ -57,6 +57,7 @@ module.exports = {
             "list-item-bullet-indent"          : ["error"],
             "list-item-content-indent"         : ["error"],
             "list-item-indent"                 : [
+                "error",
                 "tab-size",
             ],
             "list-item-spacing"                : ["error"],

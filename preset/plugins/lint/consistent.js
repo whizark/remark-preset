@@ -86,6 +86,7 @@ module.exports = {
             "no-file-name-outer-dashes"        : ["error"],
             "no-heading-content-indent"        : ["error"],
             "no-heading-indent"                : ["error"],
+            "no-heading-like-paragraph"        : ["error"],
             "no-heading-punctuation"           : [
                 "error",
                 "\\.,;:!?",

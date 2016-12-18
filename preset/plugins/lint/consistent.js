@@ -76,6 +76,7 @@ module.exports = {
             "no-duplicate-headings-in-section" : ["error"],
             "no-duplicate-headings"            : ["error"],
             "no-emphasis-as-heading"           : ["error"],
+            "no-empty-url"                     : ["error"],
             "no-file-name-articles"            : ["error"],
             "no-file-name-consecutive-dashes"  : ["error"],
             "no-file-name-irregular-characters": [

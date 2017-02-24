@@ -7,6 +7,7 @@ module.exports = {
         "closeAtx"           : false,
         "looseTable"         : false,
         "spacedTable"        : true,
+        "paddedTable"        : true,
         "fence"              : "`",
         "fences"             : false,
         "bullet"             : "*",

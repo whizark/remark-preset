@@ -95,7 +95,12 @@ module.exports = {
             "no-html"                          : ["error"],
             "no-inline-padding"                : ["error"],
             "no-literal-urls"                  : ["error"],
-            "no-missing-blank-lines"           : ["error"],
+            "no-missing-blank-lines"           : [
+                "error",
+                {
+                    "exceptTightLists": true
+                }
+            ],
             "no-multiple-toplevel-headings"    : [
                 "error",
                 1,

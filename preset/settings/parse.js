@@ -2,7 +2,6 @@
 
 module.exports = {
     "settings": {
-        "yaml"     : false,
         "footnotes": false,
         "breaks"   : false,
         "blocks"   : [

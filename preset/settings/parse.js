@@ -3,7 +3,6 @@
 module.exports = {
     "settings": {
         "footnotes": false,
-        "breaks"   : false,
         "blocks"   : [
             "address",
             "article",

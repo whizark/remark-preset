@@ -8,6 +8,7 @@ module.exports = {
         "looseTable"         : false,
         "spacedTable"        : true,
         "paddedTable"        : true,
+        "stringLength"       : s => s.length,
         "fence"              : "`",
         "fences"             : false,
         "bullet"             : "*",

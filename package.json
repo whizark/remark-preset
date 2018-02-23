@@ -30,7 +30,7 @@
         "remark-lint": "latest"
     },
     "peerDependencies": {
-        "remark"     : "~8.0.0",
+        "remark"     : "~9.0.0",
         "remark-lint": "~6.0.0"
     }
 }

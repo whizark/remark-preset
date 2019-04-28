@@ -3,10 +3,10 @@ sudo: false
 language: node_js
 
 node_js:
-    - 6
     - 8
     - 10
     - 11
+    - 12
 
 matrix:
     fast_finish: true
@@ -26,7 +26,7 @@ deploy:
       api_key:
           secure: kmHk0ZrL4wZSxRLUwNq1yLnUdeXp4nldqueu2PZz66D7T9zqGA2en1KN3Kmk/hr+fO1a2XY2JSVIhs5eBt39yY1fMMXkFI9cCphEDiJ8D1i6YosUAVaxnqK9ZYjE5WAahCJ/TARJx0YQVYH/XunOffd5sdbigK/5hm19GNvrTH9Qzbkv+pMrNfaMlJ8N4x8d8cv7oMFMMlsuMeJzgJ1x3sN6XUQFtCYp2QSm1lWyeiv5zIeVUcIU7tJOUwUm6+P3y4FVrKOHvpzKht48tHSdqqfiT6PVh9V4Rs4nxeWdzlVIl4nVf4imcybM7ztzmjONdRsETfnLVXALBwKjPYu+efhPa3KwPrwN8H9LijJhLyKgkInOuGYRmgtc9Wk1EV6/2tROvS6D45YMDmVVm0+kadY9icO2c/WcCZkelshnOoEGoPgzW8bl1yNeI+D5s+ZkimF4YRCLj4PJju+pSqJg2gHgyYljqbE4utj2UFSIM4BqLjoX7q9rzAq+yPVcD7h4LezJ45fGH13Q4kpTqvLfzY4ug0i23kdWtjGkcr2wCOfDrmICNuIbFMEpOweamKAKEjzDym3j2xzw+6h/rh6/Udqs31P9QijPs5rMRjyN17E/CIrskTvXFA2QyLPgSnYbWUM+J7maMOugAuotVNct5Y6zJVNBocNTTmn/XLl2ijU=
       on:
-          node: 8
+          node: 12
           repo: whizark/remark-preset
           branch: master
           tags: true

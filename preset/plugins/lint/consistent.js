@@ -117,6 +117,8 @@ module.exports = {
                     "allow": [],
                 }
             ],
+            "no-unneeded-full-reference-image" : ["error"],
+            "no-unneeded-full-reference-link"  : ["error"],
             "no-unused-definitions"            : ["error"],
             "ordered-list-marker-style"        : [
                 "error",

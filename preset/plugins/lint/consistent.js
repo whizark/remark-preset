@@ -111,7 +111,12 @@ module.exports = {
             "no-shortcut-reference-link"       : ["error"],
             "no-table-indentation"             : ["error"],
             "no-tabs"                          : ["error"],
-            "no-undefined-references"          : ["error"],
+            "no-undefined-references"          : [
+                "error",
+                {
+                    "allow": [],
+                }
+            ],
             "no-unused-definitions"            : ["error"],
             "ordered-list-marker-style"        : [
                 "error",

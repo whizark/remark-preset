@@ -109,6 +109,7 @@ module.exports = {
                 "error",
                 1,
             ],
+            "no-paragraph-content-indent"      : ["error"],
             "no-reference-like-url"            : ["error"],
             "no-shell-dollars"                 : ["error"],
             "no-shortcut-reference-image"      : ["error"],

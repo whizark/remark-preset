@@ -50,6 +50,10 @@ module.exports = {
                 "error",
                 "consistent",
             ],
+            "linebreak-style"                  : [
+                "error",
+                "unix",
+            ],
             "link-title-style"                 : [
                 "error",
                 "consistent",

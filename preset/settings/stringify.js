@@ -2,7 +2,6 @@
 
 module.exports = {
     "settings": {
-        "entities"           : false,
         "setext"             : false,
         "closeAtx"           : false,
         "tableCellPadding"   : true,

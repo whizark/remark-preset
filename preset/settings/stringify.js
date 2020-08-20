@@ -13,6 +13,7 @@ module.exports = {
         "bullet"             : "*",
         "listItemIndent"     : "tab",
         "incrementListMarker": true,
+        "tightDefinitions"   : true,
         "rule"               : "-",
         "ruleRepetition"     : 3,
         "ruleSpaces"         : false,

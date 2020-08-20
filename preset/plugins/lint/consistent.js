@@ -76,6 +76,7 @@ module.exports = {
             "no-auto-link-without-protocol"    : ["error"],
             "no-blockquote-without-caret"      : ["error"],
             "no-consecutive-blank-lines"       : ["error"],
+            "no-duplicate-defined-urls"        : ["error"],
             "no-duplicate-definitions"         : ["error"],
             "no-duplicate-headings"            : ["error"],
             "no-duplicate-headings-in-section" : ["error"],

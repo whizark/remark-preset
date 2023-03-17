@@ -31,6 +31,6 @@
     },
     "peerDependencies": {
         "remark"     : "~12.0.1",
-        "remark-lint": "~7.0.1"
+        "remark-lint": "~7.0.1 || ~9.1.0"
     }
 }
